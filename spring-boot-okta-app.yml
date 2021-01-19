@@ -1,0 +1,20 @@
+server:
+  port: 8081
+
+  security:
+    oauth2:
+      client:
+        provider:
+          okta:
+            issuer-uri: https://dev-266554.okta.com/oauth2/default
+        registration:
+          okta:
+            client-id: {cipher}60908e617eaa9e752e3544f88dc89b14e496b32084e7a872849e010f3b92a29a40a42e0bb5badc8b7014a7133f600a5e%
+            client-secret: {cipher}c7d06abbc569f6a58b9f5dffc9040aabd5df5b0987411bd2668f40be59ed86e35d4bed9cce46027bdd852b6e6d484db4bed27ef2c5c125d4f87f5a54a3905348%
+
+
+#okta:
+#  oauth2:
+#    issuer: https://dev-266554.okta.com/oauth2/default
+#    clientId: {cipher}60908e617eaa9e752e3544f88dc89b14e496b32084e7a872849e010f3b92a29a40a42e0bb5badc8b7014a7133f600a5e%
+#    clientSecret: {cipher}c7d06abbc569f6a58b9f5dffc9040aabd5df5b0987411bd2668f40be59ed86e35d4bed9cce46027bdd852b6e6d484db4bed27ef2c5c125d4f87f5a54a3905348%
