@@ -5,4 +5,4 @@ okta:
   oauth2:
     issuer: https://dev-266554.okta.com/oauth2/default
     clientId: '{cipher}24948cb3ac44e29fa5e6da326969c10333c69cec252ed98027f76d1ee5416c79d4918d94d33b1e18ce0da1ade0852c8a' #0oa78q7en79pbY8cU357
-    clientSecret: '{cipher}7f9274818c3d1101a02c65d0b8d0989c8c886cbbc53b4f0c80981dbd74b4c57372e3df616fd6bfd6a0721d106dff372b38a10828fcdbcb7129d1e53668870c23' #H1taSpODb_FTmnHjVn1WbxqxfDEe-WvpwGJf-CbE
+    clientSecret: '{cipher}e39f00753858f2322798224d6a2d6cbd959e7af0301fba9ad459c695b00c49574ea26e9b49354efbf2bcc23c94c5d535bf1f3a628e6d58aead893978f8c5e1e2' #H1taSpODb_FTmnHjVn1WbxqxfDEe-WvpwGJf-CbE
