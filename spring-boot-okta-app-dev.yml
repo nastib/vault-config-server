@@ -1,4 +1,4 @@
-name:  wilfrid
+service.name:  wilfrid
 #spring:
 #  security:
 #    oauth2:

@@ -10,5 +10,3 @@ spring:
       server:
         git:
           uri: file://${user.home}/IdeaProjects/spring-cloud-config-vault/vault-config-server
-
-      enabled: false
