@@ -1,21 +1,8 @@
 server:
   port: 8081
 
-spring:
-  security:
-    oauth2:
-      client:
-        provider:
-          okta:
-            issuer-uri: https://dev-266554.okta.com/oauth2/default
-        registration:
-          okta:
-            client-id: 0oa78q7en79pbY8cU357
-            client-secret: H1taSpODb_FTmnHjVn1WbxqxfDEe-WvpwGJf-CbE
-
-
-#okta:
-#  oauth2:
-#    issuer: https://dev-266554.okta.com/oauth2/default
-#    clientId: 0oa78q7en79pbY8cU357
-#    clientSecret: H1taSpODb_FTmnHjVn1WbxqxfDEe-WvpwGJf-CbE
+okta:
+  oauth2:
+    issuer: https://dev-266554.okta.com/oauth2/default
+    clientId: 0oa78q7en79pbY8cU357
+    clientSecret: H1taSpODb_FTmnHjVn1WbxqxfDEe-WvpwGJf-CbE
