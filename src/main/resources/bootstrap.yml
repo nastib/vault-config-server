@@ -6,10 +6,24 @@ spring:
     name: vault-config-server
 
   profiles:
-    active: native    
-
+    active: vault
+    
   cloud:
     config:
       server:
-        git:
-          uri: https://github.com/nastib/vault-config-server.git #file://${user.home}/IdeaProjects/spring-cloud-config-vault/vault-config-server
+        vault:
+          host: 127.0.0.1
+          port: 8200
+          kvVersion: 2
+logging:
+  level:
+    root: TRACE 
+
+#  profiles:
+#    active: native    
+
+#  cloud:
+#    config:
+#      server:
+#        git:
+#          uri: https://github.com/nastib/vault-config-server.git #file://${user.home}/IdeaProjects/spring-cloud-config-vault/vault-config-server
