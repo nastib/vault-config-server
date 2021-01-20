@@ -8,22 +8,23 @@ spring:
   profiles:
     active: vault
     
-  cloud:
-    config:
-      server:
-        vault:
-          host: 127.0.0.1
-          port: 8200
-          kvVersion: 2
+#  cloud:
+#    config:
+#      server:
+#        vault:
+#          host: 127.0.0.1
+#          port: 8200
+#          kvVersion: 2
+
 logging:
   level:
     root: TRACE 
 
-#  profiles:
-#    active: native    
+  profiles:
+    active: native    
 
-#  cloud:
-#    config:
-#      server:
-#        git:
-#          uri: https://github.com/nastib/vault-config-server.git #file://${user.home}/IdeaProjects/spring-cloud-config-vault/vault-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/nastib/vault-config-server.git #file://${user.home}/IdeaProjects/spring-cloud-config-vault/vault-config-server
