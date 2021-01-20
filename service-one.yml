@@ -1,2 +1,13 @@
 server:
   port: 8081
+spring:
+  security:
+    oauth2:
+      client:
+        provider:
+          okta:
+            issuer-uri: https://dev-266554.okta.com/oauth2/default
+        registration:
+          okta:
+            client-id: 
+            client-secret: 
