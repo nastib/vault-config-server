@@ -10,8 +10,8 @@ spring:
             issuer-uri: https://dev-266554.okta.com/oauth2/default
         registration:
           okta:
-            client-id: cipher60908e617eaa9e752e3544f88dc89b14e496b32084e7a872849e010f3b92a29a40a42e0bb5badc8b7014a7133f600a5e%
-            client-secret: cipherc7d06abbc569f6a58b9f5dffc9040aabd5df5b0987411bd2668f40be59ed86e35d4bed9cce46027bdd852b6e6d484db4bed27ef2c5c125d4f87f5a54a3905348%
+            client-id: 0oa78q7en79pbY8cU357
+            client-secret: H1taSpODb_FTmnHjVn1WbxqxfDEe-WvpwGJf-CbE
 
 
 #okta:
