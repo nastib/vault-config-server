@@ -1,8 +1,12 @@
 server:
   port: 8887
+  
 spring:
   application:
     name: vault-config-server
+
+  profiles:
+    active: native    
 
   cloud:
     config:
