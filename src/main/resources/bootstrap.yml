@@ -6,7 +6,9 @@ spring:
     name: vault-config-server
 
   profiles:
-    active: vault
+#    active: vault
+    active: native    
+    
     
 #  cloud:
 #    config:
@@ -18,10 +20,7 @@ spring:
 
 logging:
   level:
-    root: TRACE 
-
-  profiles:
-    active: native    
+    root: INFO 
 
   cloud:
     config:
